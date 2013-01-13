@@ -31,3 +31,6 @@ body {
       .control-group{
         margin-bottom:0px !important;
       }
+      .modal-body{
+        height:inherit;
+      }

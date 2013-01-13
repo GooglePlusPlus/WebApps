@@ -1,4 +1,4 @@
-﻿<div class="container">
+<div class="container">
 	<form class="form-signin" onsubmit="return false;">
 		<h2 class="form-signin-heading">登录</h2>
 		{if isset($error)}
