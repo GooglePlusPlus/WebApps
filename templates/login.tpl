@@ -1,3 +1,4 @@
+<img src="/res/img/gp.png" alt="" class="logo">
 <div class="container">
 	<form class="form-signin" onsubmit="return false;">
 		<h2 class="form-signin-heading">登录</h2>

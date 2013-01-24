@@ -31,6 +31,16 @@ body {
       .control-group{
         margin-bottom:0px !important;
       }
+
+      .modal{
+        height:505px;
+      }
+
       .modal-body{
         height:inherit;
+        overflow-y:visible;
+      }
+
+      .logo{
+        padding-left:15%
       }
