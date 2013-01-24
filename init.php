@@ -25,3 +25,15 @@ $mo = new Mongo();
 $db=$mo->selectDB('gplusplus');
 $session=$db->sessions;
 $sess=new MongoDBSessionHandler($session,3600);
+
+//Initialize includes.
+
+//Password hashing(form Wordpress)\
+require(GPINC.'/class-phpass.php');
+$_GLOBALS['hashier']=new PasswordHash();
+
+//Capabilities definition
+require(GPINC.'/capabilities.php');
+
+//GP_USER  Object
+require(GPINC.'/user.class.php');

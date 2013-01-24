@@ -20,6 +20,6 @@ $smarty->display('./templates/login.tpl');
 <script type="text/javascript"  src="/res/js/login.js"></script>
 <script type="text/javascript" src="/res/js/defaultPasswordStrengthDefinitions.js"></script>
 <script type="text/javascript" src="/res/js/PasswordStrength.js"></script>
-<script type="text/javascript" src="/res/js/jquery.chroma-hash.js"></script>
+
 </body>
 </html>
